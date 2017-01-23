@@ -1,0 +1,18 @@
+#Sieci neuronowe
+
+#Zadanie 3:
+#Odwiedź stronę:
+# playground.tensorflow.org
+
+# 2a) Zredukuj sieć neuronową do minimalnej postaci (0 hidden layers) i rozpocznij proces uczenia na
+#    problemie nr 3 (dwa rozdzielne skupiska) - czy taka sieć (pojedynczy neuron) nauczyła się odpowiedniej granicy decyzyjnej?
+TAK
+#    (spójrz na wizualizację oraz wykres training/test loss)
+#    Czy dodanie warstw ukrytych coś zmienia w kontekście wyuczenia? a w kontekście czasu wyznaczania granicy decyzyjnej?
+Wyznaczanie granicy trwa dłużej
+
+# 2b) Zmień problem na pierwszy - niebieska chmura wewnątrz pomarańczowej obręczy, czy tutaj minimalna sieć uczy się odpowiednio?
+#    Odpowiedź uzasadnij.
+nie, ponieważ nie da się dopasować linii która dobrze oddzieli taki zbiór
+#    Jak sprawić, aby sieć zaczęła dobrze działać?
+wystarczy ustawić Features na (x1)^2 i (x2)^2
